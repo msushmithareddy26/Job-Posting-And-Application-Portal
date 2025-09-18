@@ -132,6 +132,7 @@ Tests include:
 ![Job Portal UI 1](https://github.com/user-attachments/assets/ab724c4e-198a-4ec3-b92d-4401e9c1f7ea)
 
 ![Job Portal UI 2](https://github.com/user-attachments/assets/a985e5ff-c8fc-43b3-a286-897e90d75b99)
+![ss](https://github.com/user-attachments/assets/7f7f2fae-5856-4021-bc24-495591df11d1)
 
 
 💡 Design Decisions & Challenges:
