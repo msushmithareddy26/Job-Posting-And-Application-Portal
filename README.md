@@ -1,5 +1,6 @@
 # 💼 Job Posting and Application Portal
 
+
 A full-stack web application built with **React**, **Django**, and **MySQL** that enables recruiters to post job openings and applicants to apply. This project demonstrates real-world CRUD operations, secure authentication, role-based access control, and API documentation using Swagger.
 
 ---
@@ -52,11 +53,12 @@ job-posting-and-application-portal/
 
 Code:
 
+
 ## ⚙️ Installation & Setup:
 
 ### 🔹 Backend Setup (Django + MySQL):
 
-```bash
+bash
 # Navigate to backend folder
 cd backend/jobportal
 
@@ -126,11 +128,14 @@ Tests include:
 
 -API call mocking
 
-📸 Screenshots:
+##📸 Screenshots:
 
-![WhatsApp Image 2025-09-19 at 00 36 49_c3e6b197](https://github.com/user-attachments/assets/b38c0506-a07f-436f-839c-45e04f35e0c7)
-![WhatsApp Image 2025-09-19 at 00 36 28_76e71585](https://github.com/user-attachments/assets/4f3d41fa-d009-4265-b109-69d2c7254997)
-![WhatsApp Image 2025-09-19 at 00 35 48_7f43c4c1](https://github.com/user-attachments/assets/26ace27c-c458-41f1-bb12-422cd64ddaeb)
+
+<img width="2074" height="1154" alt="image" src="https://github.com/user-attachments/assets/4f468b00-9f34-4ceb-948a-55f188e31ed3" />
+<img width="1419" height="1183" alt="image" src="https://github.com/user-attachments/assets/bab2c404-5ce8-4ed4-90a4-e54ab156496a" />
+<img width="2489" height="1132" alt="image" src="https://github.com/user-attachments/assets/c087115e-695d-4774-8616-df560695851d" />
+
+
 
 💡 Design Decisions & Challenges:
 -Chose Django for its built-in admin and rapid API development.
@@ -158,3 +163,4 @@ This project is licensed under the MIT License.
 👩‍💻 Author
 Sushmitha Reddy
 GitHub: msushmithareddy26
+
