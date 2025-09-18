@@ -127,13 +127,10 @@ Tests include:
 -API call mocking
 
 📸 Screenshots:
-![Screenshot](https://github.com/user-attachments/assets/915305b7-f210-4fb2-b164-4d97006ef88d)
 
-![Job Portal UI 1](https://github.com/user-attachments/assets/ab724c4e-198a-4ec3-b92d-4401e9c1f7ea)
-
-![Job Portal UI 2](https://github.com/user-attachments/assets/a985e5ff-c8fc-43b3-a286-897e90d75b99)
-![ss](https://github.com/user-attachments/assets/7f7f2fae-5856-4021-bc24-495591df11d1)
-
+![WhatsApp Image 2025-09-19 at 00 36 49_c3e6b197](https://github.com/user-attachments/assets/b38c0506-a07f-436f-839c-45e04f35e0c7)
+![WhatsApp Image 2025-09-19 at 00 36 28_76e71585](https://github.com/user-attachments/assets/4f3d41fa-d009-4265-b109-69d2c7254997)
+![WhatsApp Image 2025-09-19 at 00 35 48_7f43c4c1](https://github.com/user-attachments/assets/26ace27c-c458-41f1-bb12-422cd64ddaeb)
 
 💡 Design Decisions & Challenges:
 -Chose Django for its built-in admin and rapid API development.
