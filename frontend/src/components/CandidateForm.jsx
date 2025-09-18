@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import API from '../api';
+import { render, screen } from '@testing-library/react';
+
+
 
 export default function CandidateForm({ jobId, onApplied }) {
   const [name, setName] = useState('');
