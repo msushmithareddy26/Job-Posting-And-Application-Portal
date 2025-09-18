@@ -1,11 +1,10 @@
+# 💼 Job Posting and Application Portal
 
-💼 **Job Posting and Application Portal**
+A full-stack web application built with **React**, **Django**, and **MySQL** that enables recruiters to post job openings and applicants to apply. This project demonstrates real-world CRUD operations, secure authentication, role-based access control, and API documentation using Swagger.
 
-A full-stack web application built with **React**, **Django**, and **MySQL** that enables recruiters to post job openings and applicants to apply. This project demonstrates real-world CRUD operations, secure authentication, and role-based access control.
+---
 
-
-
-## 🚀 Features:
+## 🚀 Features
 
 ### 👩‍💼 Recruiters can:
 - Post new job openings
@@ -24,32 +23,34 @@ A full-stack web application built with **React**, **Django**, and **MySQL** tha
 - Responsive UI built with React
 - RESTful API powered by Django
 - Persistent data storage using MySQL
+- Interactive API documentation with Swagger
+- Unit tests for backend and frontend components
 
 ---
 
-## 🛠️ Tech Stack:
+## 🛠️ Tech Stack
 
-| Layer       | Technology           |
-|-------------|----------------------|
-| Frontend    | React 18, Axios, Bootstrap |
+| Layer       | Technology                     |
+|-------------|--------------------------------|
+| Frontend    | React 18, Axios, Bootstrap     |
 | Backend     | Django 4.2, Django REST Framework |
-| Database    | MySQL |
-| API Docs    | Swagger (via drf-yasg) |
-| Testing     | Pytest, React Testing Library |
-| Versioning  | Git & GitHub |
+| Database    | MySQL                          |
+| API Docs    | Swagger (via drf-yasg)         |
+| Testing     | Pytest, React Testing Library  |
+| Versioning  | Git & GitHub                   |
 
 ---
 
-## 📁 Project Structure:
+## 📁 Project Structure
 
 job-posting-and-application-portal/ 
-├── backend/ │ 
-└── jobportal/ # Django backend (API + business logic) 
-            ├── frontend/ # React frontend (UI) 
-            └── README.md # Project documentation
+├── backend/ 
+│ └── jobportal/
+        # Django backend (API + business logic) 
+        ├── frontend/ # React frontend (UI)
+        └── README.md # Project documentation
 
 Code:
-
 
 ## ⚙️ Installation & Setup:
 
@@ -84,7 +85,7 @@ python manage.py migrate
 
 # Start server
 python manage.py runserver
-🔹 Frontend Setup (React)
+🔹 Frontend Setup (React):
 bash
 # Navigate to frontend folder
 cd frontend
@@ -95,31 +96,54 @@ npm install
 # Start development server
 npm start
 📡 API Overview:
-Method	Endpoint	Description
-GET	/api/jobs/	List all job postings
-POST	/api/jobs/	Create a new job (Recruiter only)
-GET	/api/applications/	View applications (Recruiter only)
-POST	/api/apply/	Apply to a job (Applicant only)
-Interactive API documentation available via Swagger at /swagger/ once the backend is running.
+Method	Endpoint                      	Description
+GET	/api/jobs/	                  List all job postings
+POST	/api/jobs/	                  Create a new job (Recruiter only)
+GET	/api/applications/	      View applications (Recruiter only)
+POST	/api/apply/	                  Apply to a job (Applicant only)
+Interactive API documentation available at: http://localhost:8000/swagger/
 
 ✅ Testing:
-Backend
+🔹 Backend Tests:
 bash
-pytest
-Frontend
+python manage.py test
+Tests include:
+
+-Job listing and creation
+
+-Application submission
+
+-Role-based access control
+
+🔹 Frontend Tests:
 bash
 npm test
+Tests include:
+
+-Component rendering (e.g., CandidateForm)
+
+-Form validation
+
+-API call mocking
+
 📸 Screenshots:
-<img width="2188" height="1194" alt="UI Preview" src="https://github.com/user-attachments/assets/12c87535-0d88-4837-bdb8-83ad35776400" />
+![Screenshot](https://github.com/user-attachments/assets/915305b7-f210-4fb2-b164-4d97006ef88d)
+
+![Job Portal UI 1](https://github.com/user-attachments/assets/ab724c4e-198a-4ec3-b92d-4401e9c1f7ea)
+
+![Job Portal UI 2](https://github.com/user-attachments/assets/a985e5ff-c8fc-43b3-a286-897e90d75b99)
+
 
 💡 Design Decisions & Challenges:
-Chose Django for its built-in admin and rapid API development.
+-Chose Django for its built-in admin and rapid API development.
 
-Used MySQL for relational integrity and scalability.
+-Used MySQL for relational integrity and scalability.
 
-Implemented role-based access using custom permissions in Django REST Framework.
+-Implemented role-based access using custom permissions in Django REST Framework.
 
-Faced challenges with form validation across frontend and backend — resolved by syncing error messages and using consistent schemas.
+-Faced challenges with form validation across frontend and backend — resolved by syncing error messages and using consistent schemas.
+
+-Swagger was added to improve API visibility and testing during development.
 
 🤝 Contributing:
 Contributions are welcome!
@@ -130,10 +154,8 @@ bash
 # Commit your changes
 # Push to your branch
 # Open a Pull Request
-
 📜 License
 This project is licensed under the MIT License.
-
 
 👩‍💻 Author
 Sushmitha Reddy
