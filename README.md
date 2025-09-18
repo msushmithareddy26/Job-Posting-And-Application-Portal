@@ -149,14 +149,14 @@ Tests include:
 -Swagger was added to improve API visibility and testing during development.
 
 🤝 Contributing:
+
 Contributions are welcome!
 
-bash
-# Fork the repository
-# Create a new branch (e.g., feature/job-filter)
-# Commit your changes
-# Push to your branch
-# Open a Pull Request
+- Fork the repository
+- Create a new branch (e.g., feature/job-filter)
+- Commit your changes
+- Push to your branch
+- Open a Pull Request
 📜 License
 This project is licensed under the MIT License.
 
